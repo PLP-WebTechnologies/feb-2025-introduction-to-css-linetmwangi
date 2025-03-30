@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML5 Elements Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Ordered List</h2>
+    <ol class= list type="i">
+        <li class= list >Kenya</li>
+        <li class= list>Uganda</li>
+        <li class= list>South Africa</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/31074953/pexels-photo-31074953/free-photo-of-young-woman-posing-outdoors-with-arms-raised.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="woman image" width="350" height="550">
+
+
+    <h2>Contact List</h2>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linet Mwangi</td>
+                <td>Juja Street, Nairobi</td>
+                <td>0112103012</td>
+                <td>Mwangilinet@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Agnes Kitua</td>
+                <td>Juja Street, Nairobi</td>
+                <td>0769351304</td>
+                <td>agneskitua@example.com</td>
+            </tr>
+            <tr>
+                <td>Vincent maina</td>
+                <td>Juja Street, Nairobi</td>
+                <td>0112166733</td>
+                <td>vmaina@example.com</td>
+            </tr>
+            <tr>
+                <td>joan wanjiru</td>
+                <td>Juja Street, Nairobi</td>
+                <td>0729636314</td>
+                <td>Joanwanjiru@example.com</td>
+            </tr>
+            <tr>
+                <td>George mwangi</td>
+                <td>Juja Street, Nairobi</td>
+                <td>0723391003</td>
+                <td>gmwangi@example.com</td>
+            </tr>
+        </tbody>
+        <foot>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </foot>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form id="form" action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Ethiopia">Ethiopia</option>
+        </select>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <br><br>
+
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">Sports
+        <input type="checkbox" id="music" name="interests" value="music">Music
+        <input type="checkbox" id="reading" name="interests" value="reading">Reading
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
